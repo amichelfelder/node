@@ -1,0 +1,16 @@
+{
+  "name": "node1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":  "NODE_ENV=dev node index.js",
+    "start": "NODE_ENV=prod node index.js",
+    "build-css": "sass styles/styles.scss styles/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}

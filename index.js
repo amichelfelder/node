@@ -1,4 +1,3 @@
- const suma = require('./modules/sumator')
- const moment = require('moment')
-
-console.log(suma(5, 10))
+//  const suma = require('./modules/sumator')
+ const date = require('./modules/sumator')
+ date()
